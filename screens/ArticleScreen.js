@@ -7,6 +7,11 @@ export default class ArticleScreen extends React.Component {
 
   render() {
     return (
+      /* OR:
+          <WebView 
+      source={{uri: 'http://www.dailyprincetonian.com/article/2018/01/princeton-adds-curling-mini-golf-and-madden-to-list-of-di-sports-claims-titles-in-all-3.html'}}
+      />
+      */
       <ScrollView style={styles.container}>
         <Text style={styles.articleTitleText}>
           Minor earthquake tremors felt in U. buildings

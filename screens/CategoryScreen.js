@@ -1,6 +1,6 @@
 import React from 'react';
 import { ScrollView, StyleSheet } from 'react-native';
-import ListView from '../sample/ListView';
+import ListView from '../components/ListView';
 
 export default class CategoryScreen extends React.Component {
   static navigationOptions = {
